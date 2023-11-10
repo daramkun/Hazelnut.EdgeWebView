@@ -1,0 +1,12 @@
+{
+  "name" : "edgewebview",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "fe1e9f508ee13ed3d0a7d318beac7efe1ec4f9d7",
+  "dependencies" : [ {
+    "name" : "webview2",
+    "version>=" : "1.0.2088.41"
+  }, {
+    "name" : "wil",
+    "version>=" : "2023-08-24#1"
+  } ]
+}

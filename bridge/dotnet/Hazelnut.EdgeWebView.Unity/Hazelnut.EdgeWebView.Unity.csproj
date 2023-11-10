@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <LangVersion>10</LangVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Configurations>Debug;Release;</Configurations>
+        <Platforms>AnyCPU</Platforms>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)'=='Debug'">
+      <DefineConstants>$(DefineConstants);UNITY_ENGINE</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
+      <DefineConstants>$(DefineConstants);UNITY_ENGINE</DefineConstants>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="UnityEngine">
+        <HintPath>C:\Program Files\Unity\Hub\Editor\2023.1.18f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <Import Project="..\Hazelnut.EdgeWebView.Shared\Hazelnut.EdgeWebView.Shared.projitems" Label="Shared" />
+
+</Project>

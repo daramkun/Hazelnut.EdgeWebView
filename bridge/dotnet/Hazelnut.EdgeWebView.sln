@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut.EdgeWebView", "Hazelnut.EdgeWebView\Hazelnut.EdgeWebView.csproj", "{C207833C-A7C7-4264-9FF5-18E0744F9727}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hazelnut.EdgeWebView.Unity", "Hazelnut.EdgeWebView.Unity\Hazelnut.EdgeWebView.Unity.csproj", "{F117A4E6-D080-4AF0-B842-7068D1753822}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Hazelnut.EdgeWebView.Shared", "Hazelnut.EdgeWebView.Shared\Hazelnut.EdgeWebView.Shared.shproj", "{8A3C76BD-B6E9-4780-83A0-010C0AF318B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample", "Sample\Sample.csproj", "{9381F21A-B934-4648-B778-4E931E5A84F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C207833C-A7C7-4264-9FF5-18E0744F9727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C207833C-A7C7-4264-9FF5-18E0744F9727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C207833C-A7C7-4264-9FF5-18E0744F9727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C207833C-A7C7-4264-9FF5-18E0744F9727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9381F21A-B934-4648-B778-4E931E5A84F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9381F21A-B934-4648-B778-4E931E5A84F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9381F21A-B934-4648-B778-4E931E5A84F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9381F21A-B934-4648-B778-4E931E5A84F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F117A4E6-D080-4AF0-B842-7068D1753822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F117A4E6-D080-4AF0-B842-7068D1753822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F117A4E6-D080-4AF0-B842-7068D1753822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F117A4E6-D080-4AF0-B842-7068D1753822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C5B822E-1B74-4856-965D-5C6D44581A2A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Hazelnut.EdgeWebView.Shared\Hazelnut.EdgeWebView.Shared.projitems*{8a3c76bd-b6e9-4780-83a0-010c0af318b1}*SharedItemsImports = 13
+		Hazelnut.EdgeWebView.Shared\Hazelnut.EdgeWebView.Shared.projitems*{c207833c-a7c7-4264-9ff5-18e0744f9727}*SharedItemsImports = 5
+		Hazelnut.EdgeWebView.Shared\Hazelnut.EdgeWebView.Shared.projitems*{f117a4e6-d080-4af0-b842-7068d1753822}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
